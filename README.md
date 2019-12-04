@@ -23,7 +23,7 @@ Chạy các lệnh
 
 ``` 
 cd UI
-npm init
+npm 
 npm start
 ```
 mở một cửa sổ mới
