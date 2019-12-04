@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  color: #4CAF50;
+}
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fcfafa;
+  padding: 20px;
+}
+
+.select {
+  /* width: 20%; */
+  padding: 16px 20px;
+  /* border: none; */
+  /* border-radius: 4px; */
+  /* background-color: #e4e0e0; */
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-50-left {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+.col-50-right {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.input {
+  border-radius: 8px;
+  flex:  50%;
+  width: 30%;
+  margin-top: 6px;
+  height: 450px;
+  font-size: 15px;
+}
+.output {
+  border-radius: 8px;
+  flex:  50%;
+  width: 30%;
+  margin-top: 6px;
+  /* margin-left: 50%; */
+  height: 450px;
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+}
