@@ -10,6 +10,7 @@ Mô hình sử dụng là một mô hình Kmeans đơn giản:
     +)Ở mỗi cụm sẽ chọn ra 1 câu và tổng hợp lại thành 1 đoạn văn bản chính là đầu ra của mô hình
 
 Sử dụng thư viện flask để tạo 1 Restful Api cho mô hình
+
 ###chạy chương trình
 
 Sau khi cài đặt môi trường và các thư viện cần thiết thiết cho JS và python
